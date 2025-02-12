@@ -1,0 +1,29 @@
+body {
+    background: rgb(47, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading h1 {
+    color: ivory;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 8px 10px #fff;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(252, 14, 57);
+    background: #fff;
+    padding: 5px 10px;
+    border: 2px dotted red;
+}
